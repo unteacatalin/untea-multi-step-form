@@ -103,7 +103,7 @@ function YourInfo({ nextFormStep }) {
             placeholder='e.g +1 234 567 890'
             value={phoneInput}
             onChange={(e) => setPhoneInput(e.target.value)}
-            pattern='[0-9]{10}'
+            pattern='+[0-9]{1} [0-9]{3} [0-9]{3} [0-9]{3}'
           />
         </div>
         <PrevButton dontShow setPushedButton={setPushedButton} />
