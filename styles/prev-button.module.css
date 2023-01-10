@@ -1,0 +1,39 @@
+.button {
+  background-color: var(--white);
+  color: var(--cool_gray);
+  height: 2.5rem;
+  width: 4.2rem;
+  position: absolute;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: none;
+}
+
+.hide_button {
+  display: none;
+}
+
+.buttonWrapper {
+  margin-top: 1.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 912px) {
+  .button {
+    background-color: var(--white);
+    color: var(--cool_gray);
+    height: 3rem;
+    width: 7.8rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .buttonWrapper {
+    margin-top: 0;
+    position: absolute;
+    bottom: 4rem;
+    left: 4.4rem;
+  }
+}

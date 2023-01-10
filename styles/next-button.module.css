@@ -1,0 +1,37 @@
+.button {
+  background-color: var(--marine_blue);
+  color: var(--white);
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 5px;
+  position: absolute;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.buttonWrapper {
+  margin-top: 1.3rem;
+  position: absolute;
+  bottom: 0;
+  right: 6rem;
+}
+
+@media (min-width: 912px) {
+  .button {
+    background-color: var(--marine_blue);
+    color: var(--white);
+    height: 3rem;
+    width: 7.8rem;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .buttonWrapper {
+    margin-top: 1.3rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 13rem;
+  }
+}
